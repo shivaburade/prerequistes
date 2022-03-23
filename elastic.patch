@@ -83,7 +83,7 @@ index dcd9fbf7330..e37610766f2 100644
 +  ossLinuxS390xTar {
 +    archiveClassifier = 'linux-s390x'
 +    content {
-+      archiveFiles(modulesFiles('linux-s390x'), 'tar', 'linux', 's390x', true)
++      archiveFiles(modulesFiles('linux-s390x'), 'tar', 'linux', 's390x', false)
 +    }
 +  }
 +
